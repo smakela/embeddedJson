@@ -1,0 +1,6 @@
+import embeddedjson.A
+
+model {
+    A a
+}
+json g.render(a, [excludes: ['id']])
