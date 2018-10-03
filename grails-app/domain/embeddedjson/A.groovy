@@ -12,5 +12,8 @@ class A {
     static embedded = ['bees', 'cees']
 
     static constraints = {
+        data(nullable: true)
+        cees(nullable: true)
+        bees(nullable: true)
     }
 }
